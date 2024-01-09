@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 def plot_results(X_test, y_test, y_pred):
     """
     Функция отрисовывает график реальных и предсказанных значений.
-
     Parameters:
         X_test (numpy array): Тестовые значения переменной X.
         y_test (numpy array): Тестовые значения зависимой переменной y.

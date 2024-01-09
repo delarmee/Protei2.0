@@ -3,6 +3,7 @@ from plotting import plot_results
 
 # Путь к файлу
 file_path = 'C:/Users/Анастасия/time_messagees.txt'
+
 # Линейная регрессия
 X_test, y_test, y_pred, mse, r2 = perform_linear_regression(file_path)
 
