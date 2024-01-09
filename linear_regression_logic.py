@@ -34,7 +34,3 @@ def perform_linear_regression(file_path):
 
     return X_test, y_test, y_pred, mse, r2
 
-    mse = mean_squared_error(y_test, y_pred)
-    r2 = r2_score(y_test, y_pred)
-
-    return X_test, y_test, y_pred, mse, r2
